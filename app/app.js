@@ -20,7 +20,8 @@
                 $stateProvider
                     .state("home", {
                         url: "/",
-                        templateUrl: "app/welcomeView.html"
+                        templateUrl: "app/welcomeView.html",
+                        controller: "mainCtrl as vm"
                     })
                     // Products
                     .state("productList", {
